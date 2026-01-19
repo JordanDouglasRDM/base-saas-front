@@ -1,0 +1,19 @@
+@import './base.css';
+
+:root {
+  --navigation-background: black;
+  --navigation-background-white: #d8d8d8;
+}
+
+.border-top {
+  border-top: solid 1px var(--navigation-background-white);
+}
+.toast-zindex {
+  z-index: 9999 !important;
+}
+.p-autocomplete-option:hover,
+.p-autocomplete-option.p-focus,
+.p-select-option:hover,
+.p-select-option.p-focus {
+  background-color: var(--p-slate-200) !important;
+}
